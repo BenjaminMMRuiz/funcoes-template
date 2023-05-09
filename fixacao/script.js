@@ -2,17 +2,13 @@
 
 const cartaDeConducao = (nome, anoDeNascimento, anoAtual) => {
    
-    let anoDeNascimento - anoAtual 
-    let confirmacaoDeIdade = idade >= 18
-    
 
-    return `${nome} é maior de idade ${confirmacaoDeIdade}.`
+return `${nome} é maior de idade ${anoAtual - anoDeNascimento >= 18}.`
     
     }
     
-    console.log(confirmacaoDeDados("Benjamin", 1989, 2023))
-    console.log(confirmacaoDeDados("Carol", 1988, 2023))
-    
+    console.log(cartaDeConducao("Benjamin", 1989, 2023))
+    console.log(cartaDeConducao("Carol", 1988, 2023))
 
             
 
